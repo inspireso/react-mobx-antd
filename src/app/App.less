@@ -1,0 +1,91 @@
+/*
+ * Copyright (c) 2018. Inspireso and/or its affiliates.
+ */
+
+.app {
+  height: 100%;
+
+  .header {
+    height: 64px;
+    line-height: 64px;
+    //height: 55px;
+    //background: #fff;
+    //padding: 0;
+    .header-menu {
+      line-height: 64px;
+    }
+    .right {
+      > li {
+        float: right;
+      }
+    }
+  }
+
+  .logo {
+    width: 120px;
+    height: 31px;
+    //background: #333;
+    border-radius: 6px;
+    margin: 16px 24px 16px 0;
+    float: left;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 31px;
+  }
+
+  .content-container {
+    padding: 0 15px ;
+    height: 92%;
+    .breadcrumb {
+      //background: #fff;
+      //padding: 5px 10px 10px 10px;
+      margin: 12px 0;
+    }
+
+    .content {
+      background: #fff;
+      padding: 14px;
+      min-height: 380px;
+      height: 100%;
+    }
+  }
+
+  /*card*/
+  .card-container {
+    height: 100%;
+
+    /*tabs*/
+    .ant-tabs-card {
+      height: 100%;
+      > .ant-tabs-content {
+        height: 100%;
+        min-height: 120px;
+        margin-top: -16px;
+
+        > .ant-tabs-tabpane {
+          height: 100%;
+          background: #fff;
+          padding: 14px;
+        }
+
+      }
+
+      > .ant-tabs-bar {
+        border-color: #fff;
+
+        .ant-tabs-tab {
+          border-color: transparent;
+          background: transparent;
+        }
+
+        .ant-tabs-tab-active {
+          border-color: #fff;
+          background: #fff;
+        }
+      }
+
+    }
+
+  }
+}
