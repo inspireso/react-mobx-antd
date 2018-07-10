@@ -39,7 +39,7 @@ yarn start
 │ ├── /utils/          # 工具函数
 │ ├── index.js         # 入口文件
 │ ├── index.less       # 全局样式
-│ ├── locale.js        # 路由配置
+│ ├── locale.js        # 国际化文件汇总
 │ ├── packages.js      # 导出常用的包
 │ ├── routes.js        # 路由配置
 │ ├── serviceWorker.js # service worker
